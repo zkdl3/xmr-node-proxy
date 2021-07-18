@@ -17,15 +17,24 @@
   },
   "homepage": "https://github.com/MoneroOcean/xmr-node-proxy#readme",
   "dependencies": {
-    "async": "2.1.4",
-    "bignum": "^0.12.5",
+    "async": "3.2.0",
+    "bignum": "^0.13.1",
     "circular-buffer": "1.0.2",
-    "debug": "2.6.9",
-    "express": "4.14.0",
-    "minimist": "1.2.0",
+    "debug": "4.3.1",
+    "express": "4.17.1",
+    "minimist": "1.2.5",
     "moment": "2.21.0",
     "request": "^2.79.0",
+    "request-json": "0.6.5",
+    "body-parser": "1.19.0",
+    "cluster": "0.7.7",
+    "cors": "2.8.5",
+    "crypto": "0.0.3",
+    "jsonwebtoken": "^8.5.1",
+    "range": "0.0.3",
+    "sprintf-js": "^1.1.2",
+    "uuid": "8.3.2",
     "cryptoforknote-util": "git+https://github.com/MoneroOcean/node-cryptoforknote-util.git#v9.2.0",
-    "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git#v22.0.0"
+    "cryptonight-hashing": "git+https://github.com/MoneroOcean/node-cryptonight-hashing.git#v23.1.0"
   }
 }
